@@ -6,7 +6,7 @@
 
 @font-face{
   font-family: Inter;
-  src: url('../src/assets/fonts/Inter-VariableFont_opsz\,wght.ttf')
+  src: url('../src/assets/fonts/Inter.ttf')
 }
 @import "tailwindcss";
 
@@ -14,4 +14,12 @@
   --font-poppins: Poppins, 'sans-serif';
   --font-inter: Inter, 'sans-serif';
 }
+body::-webkit-scrollbar{
+  width: 17px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(229, 162, 255);
+ 
+}
+
 
