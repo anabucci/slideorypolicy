@@ -23,7 +23,7 @@ function ScrollToTop() {
 
 const App = () => (
  
-      <BrowserRouter basename="/resourcesalem/">
+      <BrowserRouter basename="/slideorypolicy/">
       <ScrollToTop></ScrollToTop>
         <Routes>
           <Route
