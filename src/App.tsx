@@ -45,7 +45,7 @@ const App = () => (
             path="/terms-of-service" element={<BlogDetailsPage/>}
            
           />
-          <Route path="*" element={<SupportPage></SupportPage>}/>
+          <Route path="/*" element={<SupportPage></SupportPage>}/>
         
         </Routes>
       </BrowserRouter>
