@@ -8,6 +8,7 @@ import { useLocation } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
 import SupportPage from "./pages/Support";
+import DeletePage from "./pages/DeletePage";
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -29,6 +30,10 @@ const App = () => (
         <Routes>
           <Route
             path="/privacy-policy" element={<AboutPage/>}
+           
+          />
+           <Route
+            path="/delete-account" element={<DeletePage/>}
            
           />
 
