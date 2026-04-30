@@ -53,7 +53,7 @@ transition-all duration-300 font-bold`,children:"Ok"})]}):J.jsxs("div",{children
 
 
 
-             border-gray-300 py-2 rounded-lg w-full `}),J.jsx("p",{className:"text-gray-700 mb-2 font-semibold font-poppins ",children:"Password"}),J.jsx("input",{value:y,type:"password",onChange:p,placeholder:"Enter password...",className:`  focus:outline-pink-300 p-3 border-2   text-gray-400
+             border-gray-300 py-2 rounded-lg w-full `}),J.jsx("p",{className:"text-gray-700 mb-2 font-semibold font-poppins mt-5",children:"Password"}),J.jsx("input",{value:y,type:"password",onChange:p,placeholder:"Enter password...",className:`  focus:outline-pink-300 p-3 border-2   text-gray-400
 
 
 
