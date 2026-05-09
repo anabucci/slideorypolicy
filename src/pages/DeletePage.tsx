@@ -56,7 +56,34 @@ setTitle(e.target.value);
 
    }
 
+const section = [
+  {
+    title: "Steps",
+    content: `To delete your account, click on the settings icon on your profile page.
 
+Then, click on the "delete account" button.
+
+A pop up will show asking you to confirm. To proceed, click on "Delete Account". You can also delete your account and data in this website.`
+  },
+  {
+    title: "Your Data",
+    content: `Your data is immediately deleted upon an account deletion request.
+
+The following data is deleted:
+
+All of your created stories (including all options, slides, comments, likes, and completion history).
+
+Your personal account information (user ID, email, and username).
+
+All of your comments
+
+All of your likes
+
+Your story completion history
+
+Any records of your blocked users`
+  }
+];
 
    function  handlePasswordChange (e: any) {
 
@@ -91,9 +118,20 @@ return (
 
 
 
-                                                                                
-
-
+<div>
+  {section.map((e: any, i: number) => (
+    <div key={i} className="flex flex-col mt-10">
+      <div>
+        <p className="font-poppins text-black text-4xl font-bold">
+          {e.title}
+        </p>
+        <p className="font-poppins text-black text-lg mt-5 whitespace-pre-line">
+          {e.content}
+        </p>
+      </div>
+    </div>
+  ))}
+</div>
 
      
 <label className="font-poppins text-black text-3xl font-bold mt-5">Enter your account details and your account and all associated data will be deleted.</label>
@@ -168,7 +206,7 @@ transition-all duration-300 font-bold">
 
 
 
-            placeholder="Enter email..." className={`  focus:outline-pink-300 p-3 border-2   text-gray-400
+            placeholder="Enter email..." className={`  focus:outline-pink-300 p-3 border-2   text-gray-700
 
 
 
@@ -180,7 +218,7 @@ transition-all duration-300 font-bold">
 
 
 
- <p className="text-gray-700 mb-2 font-semibold font-poppins ">Password</p>
+ <p className="text-gray-700 mb-2 font-semibold font-poppins mt-5">Password</p>
 
 
 
@@ -200,7 +238,7 @@ type="password"
 
 
 
-            placeholder="Enter password..." className={`  focus:outline-pink-300 p-3 border-2   text-gray-400
+            placeholder="Enter password..." className={`  focus:outline-pink-300 p-3 border-2   text-gray-700
 
 
 
