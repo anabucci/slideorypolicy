@@ -1,4 +1,8 @@
 
+
+import Footer from '../components/Footer';
+import Navigation from "../components/Navigator";
+
 const AboutPage = () => {
 const section = [
   {
@@ -59,7 +63,10 @@ You can exercise these rights by contacting us at slideory@gmail.com or by delet
   }
 ];
 return (
-    <div className=" min-h-screen p-20 flex flex-col bg-gradient-to-b from-pink-200 to-white">
+ <section>
+   <Navigation></Navigation>
+    <div className=" min-h-screen p-20 pt-30 flex flex-col bg-gradient-to-b from-pink-200 to-white">
+      
   <h1 className=" font-poppins font-bold text-6xl text-black">Privacy Policy</h1>
   <p className="mt-10 font-poppins font-black text-xl">Effective Date: April 18th, 2026.<br/><br/>Slideory (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the Slideory mobile application and related services (the “Service”)
 .
@@ -74,6 +81,8 @@ return (
 })}
                                                                                 
     </div>
+  <Footer></Footer>
+ </section>
 )
 }
 

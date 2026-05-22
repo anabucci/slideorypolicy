@@ -8,11 +8,18 @@
   font-family: Inter;
   src: url('../src/assets/fonts/Inter.ttf')
 }
+
+@font-face{
+  font-family: Bricolage;
+  src: url('../src/assets/fonts/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf')
+}
+
 @import "tailwindcss";
 
 @theme{
   --font-poppins: Poppins, 'sans-serif';
   --font-inter: Inter, 'sans-serif';
+   --font-bricolage: Bricolage, 'sans-serif';
 }
 body::-webkit-scrollbar{
   width: 17px;

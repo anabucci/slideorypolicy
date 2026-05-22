@@ -1,4 +1,5 @@
-
+import Footer from '../components/Footer';
+import Navigation from "../components/Navigator";
 const SupportPage = () => {
 const section = [
    
@@ -32,7 +33,9 @@ const section = [
  
 ];
 return (
-    <div className=" min-h-screen p-20 flex flex-col bg-gradient-to-b from-pink-200 to-white">
+  <section>
+   <Navigation></Navigation>
+    <div className=" min-h-screen pt-30 p-20 flex flex-col bg-gradient-to-b from-pink-200 to-white">
   <h1 className=" font-poppins font-bold text-6xl text-black">Support</h1>
   <p className="mt-6 font-poppins font-black text-2xl text-[rgb(220,133,255)]">How can we help you?
 
@@ -59,7 +62,8 @@ return (
                                                 </div>
                                                }
                                                
-                                                 </div>                 
+                                                 </div> 
+                                                         
                                                 }
 
                                                           
@@ -69,6 +73,9 @@ return (
 )
 }
 </div>
+<Footer></Footer>
+ </section>    
+ 
 )}
 
 export default SupportPage;

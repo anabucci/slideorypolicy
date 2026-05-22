@@ -1,4 +1,5 @@
-
+import Footer from '../components/Footer';
+import Navigation from "../components/Navigator";
 
 const BlogDetailsPage = () => {
     const  section = {'Eligibility':"You must be at least 13 years old to use the Service. By using the Service, you represent and warrant that you meet this requirement.",
@@ -26,7 +27,9 @@ const BlogDetailsPage = () => {
    };
 
 return (
-    <div className=" min-h-screen p-20 flex flex-col bg-gradient-to-b from-pink-200 to-white">
+    <section>
+        <Navigation></Navigation>
+    <div className=" min-h-screen pt-30 p-20 flex flex-col bg-gradient-to-b from-pink-200 to-white">
   <h1 className=" font-poppins font-bold text-6xl text-black">Terms of Service</h1>
   <p className="mt-7 font-poppins font-black text-xl">Effective Date: April 18th, 2026.<br/><br/>Welcome to Slideory (“we,” “our,” or “us”). These Terms of Service (“Terms”) govern your access to and use of the Slideory mobile application and related Services (the “Service”). By accessing or using the Service, you agree to be bound by these Terms
 </p>
@@ -40,6 +43,9 @@ return (
 })}
                                                                                 
     </div>
+    <Footer></Footer>
+    </section>
+
 )
 }
 
