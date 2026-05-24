@@ -7,9 +7,9 @@ const AboutPage = () => {
 const section = [
   {
     title: "Information We Collect",
-    content: `We collect the following information when you use the Service: email address used to create and manage your account, username used to identify your account within the Service, photos or images that you upload or share through the Service, and activity data generated while using the Service such as likes, story completion history, comments, and other interactions within the Service.
+    content: `We collect the following information when you use the Service: email address used to create and manage your account, content interest and preferences, username used to identify your account within the Service, photos or images that you upload or share through the Service, and activity data generated while using the Service such as likes, story completion history, comments, and other interactions within the Service.
 
-Guest users are not required to provide personal information such as an email address or username. We do not collect data related to story completion or interactions with user-generated content, as guest users are not able to interact with such features. However, limited technical data (such as device type, operating system, Service version, and basic diagnostic or usage logs) may be automatically collected to ensure the Service functions properly.`
+Guest users are not required to provide personal information such as an email address or username. We do not collect data related to story completion or interactions with user-generated content for guest users, as guest users are not able to interact with such features. However, limited technical data (such as device type, operating system, Service version, and basic diagnostic or usage logs) may be automatically collected to ensure the Service functions properly.`
   },
   {
     title: "How We Collect Information",
@@ -51,7 +51,7 @@ We only share data with trusted service providers (such as Supabase) strictly to
     title: "Legal Compliance (GDPR & CCPA)",
     content: `We process your data based on your consent and as necessary to provide the Service’s functionality. If you are a resident of the European Union or California, you have additional rights under applicable privacy laws, including the right to access, correct, delete, or restrict the processing of your personal data, request a copy of your data in a portable format, and withdraw consent where applicable.
 
-You can exercise these rights by contacting us at slideory@gmail.com or by deleting your account through the Service’s Settings page. Slideory is committed to complying with GDPR and CCPA requirements for the protection of your personal information.`
+You can exercise these rights by contacting us at contact@slideory.com or by deleting your account through the Service’s Settings page. Slideory is committed to complying with GDPR and CCPA requirements for the protection of your personal information.`
   },
   {
     title: "Changes to This Policy",
@@ -59,7 +59,7 @@ You can exercise these rights by contacting us at slideory@gmail.com or by delet
   },
   {
     title: "Contact Us",
-    content: "If you have any questions about this Privacy Policy, contact us at: slideory@gmail.com"
+    content: "If you have any questions about this Privacy Policy, contact us at contact@slideory.com"
   }
 ];
 return (
@@ -68,7 +68,7 @@ return (
     <div className=" min-h-screen p-20 pt-30 flex flex-col bg-gradient-to-b from-pink-200 to-white">
       
   <h1 className=" font-poppins font-bold text-6xl text-black">Privacy Policy</h1>
-  <p className="mt-10 font-poppins font-black text-xl">Effective Date: April 18th, 2026.<br/><br/>Slideory (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the Slideory mobile application and related services (the “Service”)
+  <p className="mt-10 font-poppins font-black text-xl">Effective Date: May 23rd, 2026.<br/><br/>Slideory (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the Slideory mobile application and related services (the “Service”)
 .
 </p>
                                                {section.map((e: any) => {

@@ -6,7 +6,7 @@ const section = [
   {
     title: "Contact",
 
-    content: `If you have a specific question, contact us at slideory@gmail.com`
+    content: `If you have a specific question, contact us at contact@slideory.com`
   },
   {
     title: "Guide",

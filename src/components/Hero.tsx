@@ -48,7 +48,7 @@ const Hero = () => {
             Terms of Service
             </button>
               <button
-              onClick={() => navigate("/terms-of-service")}
+              onClick={() => navigate("/privacy-policy")}
               className="ml-8 pl-12 pr-12 md:pt-4 md:pb-4 py-3 mt-10 text-xl text-purple-400 font-extrabold bg-black border-2
               rounded-3xl w-1/4 flex items-center justify-center font-bricolage
               hover:scale-105 "

@@ -7,14 +7,14 @@ const BlogDetailsPage = () => {
  'User Content':'Our Service allows users to create and share content including: Stories, Photos, Comments and other media (“User Content”). You retain ownership of the content you create. However, by posting content on the Service, you grant Slideory a worldwide, non-exclusive, royalty-free license to: host, store, display, reproduce, distribute and promote your user content for the purpose of operating and improving the Service.',
 'Content Responsibility': "You are solely responsible for the content you post. You agree not to post content that: \n •    Is illegal or promotes illegal activity\n •    Harasses, threatens, or abuses others\n •    Contains hate speech\n •    Is sexually explicit or exploitative\n •    Violates intellectual property rights\n •    Contains spam or malicious software\n •    Violates the privacy of others. \nWe reserve the right to remove or restrict content at our discretion.",
 'Content Moderation':"To maintain a safe community, we may: Review content, remove content, restrict accounts, or suspend or terminate users However, we do not guarantee that all content will be monitored.",
-'Reporting Violations':"Users may report content that violates these Terms. If you believe content violates these Terms or your rights, please contact: slideory@gmail.com",
+'Reporting Violations':"Users may report content that violates these Terms. If you believe content violates these Terms or your rights, please contact: contact@slideory.com",
 'Intellectual Property':'All content and materials provided by Slideory, including: software, branding, design and logos are owned by Slideory and protected by intellectual property laws. You may not: Copy, modify, distribute, or reverse engineer any part of the Service without our permission',
-'Copyright Policy (DMCA)':'If you believe that content on the Service infringes your copyright, you may submit a takedown request including: identification of the copyrighted work , identification of the infringing material, your contact information , and a statement of good faith belief. Requests should be sent to: slideory@gmail.com',
+'Copyright Policy (DMCA)':'If you believe that content on the Service infringes your copyright, you may submit a takedown request including: identification of the copyrighted work , identification of the infringing material, your contact information , and a statement of good faith belief. Requests should be sent to: contact@slideory.com',
 'Termination':"We may suspend or terminate your access to the Service if you: violate these terms, post harmful or illegal content, or abuse the platform. You may stop using the Service at any time.",
 "Disclaimer of Warranties":"The Service is provided “as is” and “as available.” We do not guarantee that: the Service will always be available the Service will be error-free and that user content will be accurate or reliable",
 'Limitation of Liability':'To the maximum extent permitted by law, Slideory shall not be liable for any indirect, incidental, or consequential damages arising from your use of the Service.',
 'Changes to These Terms':'We may update these Terms from time to time. When we do, we will update the Effective Date. Continued use of the Service after changes means you accept the updated terms.',
-'Contact Information':'If you have any questions about the terms, contact us at slideory@gmail.com'
+'Contact Information':'If you have any questions about the terms, contact us at contact@slideory.com'
 
 
 
