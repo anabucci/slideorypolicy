@@ -3,13 +3,13 @@
     "apps": [],
     "details": [
       {
-        "appID": "9VLV6TPZ2G.com.abucci.slideory",
+        "appID": "9VLV6TPZ2G.com.abucci.slideory"
         "paths": ["/posts/*"]
         
       }
     ]
   },
    "webcredentials": {
-      "apps": [ "9VLV6TPZ2G.com.abucci.slideory", ]
+      "apps": [ "9VLV6TPZ2G.com.abucci.slideory" ]
    },
 }
