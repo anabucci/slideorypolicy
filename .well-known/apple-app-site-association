@@ -1,7 +1,7 @@
 {
   "applinks": {
     "details": [
-"appID": "9VLV6TPZ2G.com.abucci.slideory"
+"appIDs": ["9VLV6TPZ2G.com.abucci.slideory"],
   "components": [
        {
                   "/": "/share/post/*",
