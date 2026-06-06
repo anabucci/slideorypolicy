@@ -1,11 +1,15 @@
-
 {
   "applinks": {
     "apps": [],
     "details": [
       {
         "appID": "9VLV6TPZ2G.com.abucci.slideory",
-        "paths": ["post/*"]
+        "components": [
+          {
+            "/": "/post/*",
+            "comment": "Post pages"
+          }
+        ]
       }
     ]
   }
