@@ -1,18 +1,4 @@
 
 <script>
-if (window.location.pathname.startsWith('/post/')) {
-  console.log('Matched post route');
-  console.log('ID:', window.location.pathname.split('/')[2]);
-}
+  window.location.replace("/delete-account/");
 </script>
-{
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "9VLV6TPZ2G.com.abucci.slideory",
-        "paths": ["/post/*"]
-      }
-    ]
-  }
-}
