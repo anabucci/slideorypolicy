@@ -3,13 +3,9 @@
     "apps": [],
     "details": [
       {
-        "appIDs": "9VLV6TPZ2G.com.abucci.slideory",
-        "components": [
-          {
-            "/": "/post/*",
-            "comment": "Post pages"
-          }
-        ]
+        "appID": "9VLV6TPZ2G.com.abucci.slideory",
+        "paths": ["posts/*"]
+        
       }
     ]
   }
