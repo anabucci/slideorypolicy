@@ -9,6 +9,10 @@
           {
             "/": "/share/post/*",
             "comment": "Share a post"
+          },
+ {
+            "/": "/reset-password",
+            "comment": "Reset Password"
           }
         ]
       }
