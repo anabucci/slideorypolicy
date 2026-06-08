@@ -1,11 +1,15 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.abucci.slideory",
       "sha256_cert_fingerprints": [
-        "B0:44:A5:D7:82:51:8C:0F:07:3E:45:14:6E:EF:14:6B:88:6C:36:DB:7A:00:32:BD:C9:DE:35:4D:6E:5E:77:0D"
+        "B0:44:A5:D7:82:51:8C:0F:07:3E:45:14:6E:EF:14:6B:88:6C:36:DB:7A:00:32:BD:C9:DE:35:4D:6E:5E:77:0D",
+        "F4:2A:1B:FE:2A:4A:8F:F1:10:4F:AF:26:F6:9D:8C:1A:66:D5:02:52:1D:66:9B:B4:C0:C9:48:40:D5:85:8A:45"
       ]
     }
   }
