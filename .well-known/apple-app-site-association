@@ -11,6 +11,14 @@
             "comment": "Share a post"
           },
  {
+            "/": "/set-up-email",
+            "comment": "Set up email"
+          },
+ {
+            "/": "/set-up-google",
+            "comment": "Set up google"
+          },
+ {
             "/": "/reset-password",
             "comment": "Reset Password"
           }
